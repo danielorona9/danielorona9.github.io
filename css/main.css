@@ -12,4 +12,65 @@ html {
 				height: 100%;
 }
 
+header {
+				grid-column-start: 1;
+				grid-column-end: 13;
+				grid-row-start: 1;
+				grid-row-end: 2;
+				background-color: #009688;
+				display: flex;
+				border-bottom: 0.5px;
+				border-bottom-style: solid;
+				border-color: #0DA1A4;
+				height: 10rem;
+				width: 100%;
+}
+
+.nav-bar {
+				display: flex;
+				flex-direction: row;
+				width: 100%;
+				background-color: #009688;
+				height: 10rem;
+				position: fixed;
+				opacity: 0.8;
+				z-index: 1;
+}
+
+.nav-list {
+				list-style-type: none;
+				display: inline-flex;
+				flex-direction: row;
+				justify-content: center;
+				width: 100%;
+				padding-left: 0;
+}
+
+.nav-list .nav-tab {
+				height: 100%;
+				width: 100%;
+				text-align: center;
+				padding: 3rem 0 0;
+}
+
+.nav-list .nav-tab:hover {
+				border: 1px solid #0DA1A4;
+				background-color: #0DA1A4;
+				height: 6.1rem;
+}
+
+.nav-list .nav-tab:focus {
+				border: 1px solid #0DA1A4;
+				background-color: #0DA1A4;
+				height: 6rem;
+}
+
+.nav-list .nav-tab a {
+				color: white;
+				text-decoration: none;
+				text-transform: uppercase;
+				width: 100%;
+				font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=main.css.map */
