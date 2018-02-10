@@ -7,7 +7,7 @@ html {
 				font-family: 'Roboto Condensed', serif;
 				display: grid;
 				grid-template-columns: repeat(12, 1fr);
-				grid-template-rows: 10rem;
+				grid-template-rows: 10rem 45rem;
 				width: 100%;
 				height: 100%;
 }
@@ -71,6 +71,104 @@ header {
 				text-transform: uppercase;
 				width: 100%;
 				font-size: 1.3rem;
+}
+
+.about {
+				grid-column-start: 1;
+				grid-column-end: 13;
+				grid-row-start: 2;
+				grid-row-end: 3;
+				background: url("https://oadhvq.bn1301.livefilestore.com/y4mMDiyrlSPeipUoYMzm1EwZiGbok12E34wh4gYEp_VYc6IlVwrzKizoLRKPYsnjvZGUCf2mnsQUOLpJGbHFWEPxlQHb5eC2yBhdhzM_k80L-j451qYi5KJVHkSspzBjACERjSOeOlWd7wVgtr0B1RP0s6gmxRcduHdd69jQSGX2ACVZzJmuZ-1GnpZgkMXOkdIMr7o--Ys2HrmeyO1B4MGGg?width=1200&height=674&cropmode=none");
+				display: flex;
+				flex-direction: row-reverse;
+				align-items: center;
+				margin-top: 1%;
+				padding-top: 4%;
+				width: 100%;
+				flex-wrap: wrap;
+				border-bottom: 2px solid black;
+}
+
+.about .intro {
+				order: 1;
+				margin-right: 2%;
+				flex-basis: 40%;
+				background-color: black;
+				opacity: .7;
+}
+
+.about .intro .intro-paragraph {
+				margin-left: 3rem;
+				color: white;
+				font-size: 1.6rem;
+				text-align: center;
+}
+
+.about .profile-container {
+				background-color: black;
+				opacity: .7;
+}
+
+.about .image-column {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-right: 15%;
+				background-color: black;
+}
+
+.about .image-column .codewars-label {
+				margin: 0 0 1.5rem 0;
+}
+
+.about .image-column .image-portrait-placeholder {
+				border: 0.1rem solid #0DA1A4;
+				border-radius: 50%;
+}
+
+.about .image-column .image-portrait-placeholder .my-portrait {
+				border-radius: 50%;
+				padding: .1rem;
+				border: .1rem solid white;
+				filter: grayscale(100%);
+}
+
+.about .image-column .description {
+				color: white;
+				font-size: 1.4rem;
+}
+
+.about .social-column {
+				display: flex;
+				flex-direction: column;
+				background-color: black;
+				opacity: .7;
+}
+
+.about .social-column .social-row {
+				display: flex;
+				flex-direction: row;
+				justify-content: start;
+				margin-top: 2.5rem;
+}
+
+.about .social-column .header-brand-label {
+				color: white;
+				align-self: flex-end;
+}
+
+.about .social-column .header-brand {
+				margin-left: 8%;
+				padding-bottom: .8rem;
+				color: #009688;
+}
+
+.hidden {
+				visibility: hidden;
+}
+
+.visible {
+				visibility: visible;
 }
 
 /*# sourceMappingURL=main.css.map */
