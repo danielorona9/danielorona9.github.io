@@ -36,7 +36,7 @@ html {
   font-family: 'Roboto Condensed', serif;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10rem 45rem;
+  grid-template-rows: 10rem 45rem auto;
   width: 100%;
   height: 100%;
 }
@@ -106,6 +106,7 @@ header {
 // ==========================================================================
 //  					About section
 // ==========================================================================
+
 .about {
     @include gridLayoutPosition(1, 13, 2, 3);
     background: url('https://oadhvq.bn1301.livefilestore.com/y4mMDiyrlSPeipUoYMzm1EwZiGbok12E34wh4gYEp_VYc6IlVwrzKizoLRKPYsnjvZGUCf2mnsQUOLpJGbHFWEPxlQHb5eC2yBhdhzM_k80L-j451qYi5KJVHkSspzBjACERjSOeOlWd7wVgtr0B1RP0s6gmxRcduHdd69jQSGX2ACVZzJmuZ-1GnpZgkMXOkdIMr7o--Ys2HrmeyO1B4MGGg?width=1200&height=674&cropmode=none'); //#293642e6;
@@ -191,4 +192,58 @@ header {
 
 .visible {
     visibility: visible;
+}
+
+// ==========================================================================
+//   				Portfolio Seciton
+// ==========================================================================
+
+.portfolio {
+    @include gridLayoutPosition(1, 13, 3, 5);
+    background-color: $grey;
+    border-color: black;
+    border: 1px;
+    height: 100%;
+    margin-bottom: 20%;
+    padding-top: 5rem;
+    width: 100%;
+
+    .portfolio-background {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 95%;
+        width: 90%;
+        background-color: white;
+        padding: 2rem 0;
+
+
+        .portfolio-title {
+            width: 100%;
+            text-align: center;
+            align-self: center;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            font-weight: lighter;
+        }
+
+        .project-placeholder {
+        	display: flex;
+        	flex-direction: column;
+            margin: .1% 5rem;
+            height: 27.778rem;
+            width: 27.778rem;
+
+            .project-title{
+            	width: 100%;
+            }
+
+            .project-image {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
 }
