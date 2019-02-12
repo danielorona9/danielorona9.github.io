@@ -377,4 +377,40 @@ header {
 .contact .connect-area .connect-list .connect-item a:hover {
   color: white;
 }
+
+.footer {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 13;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: #009688;
+  border-color: black;
+  border: 1px;
+  margin-top: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 100%;
+}
+
+.footer .site-author {
+  color: white;
+  font-size: 1rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coffee-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: .3rem;
+}
 /*# sourceMappingURL=main.css.map */
