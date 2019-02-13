@@ -116,7 +116,10 @@ header {
     @media only screen  and (max-width: 796px) { 
         flex-direction: column;
         flex-wrap: nowrap;
-
+    }
+    //iphones non-plus portrait
+    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) { 
+        height: 51rem;
     }
     .intro {
         order: 1;
@@ -270,9 +273,14 @@ header {
             height: 27.778rem;
             width: 27.778rem;
             @media only screen and (max-width: 906px) { 
-                 margin-top: 1.1%;
+                margin-top: 1.1%;
                 margin-bottom: 1.1%;
             }
+            //iphones non-plus portrait
+            @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) { 
+                margin-bottom: 6.1%;
+            }
+
             .project-title{
                 width: 100%;
                 @media only screen and (max-width: 906px) { 

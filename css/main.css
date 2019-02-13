@@ -124,6 +124,12 @@ header {
   }
 }
 
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    height: 51rem;
+  }
+}
+
 .about .intro {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
@@ -365,6 +371,12 @@ header {
   .portfolio .portfolio-background .project-placeholder {
     margin-top: 1.1%;
     margin-bottom: 1.1%;
+  }
+}
+
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .portfolio .portfolio-background .project-placeholder {
+    margin-bottom: 6.1%;
   }
 }
 
