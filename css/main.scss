@@ -118,7 +118,7 @@ header {
         flex-wrap: nowrap;
     }
     //iphones non-plus portrait
-    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) { 
+    @media only screen and (max-width: 375px) and (min-resolution: 2dppx) { 
         height: 51rem;
     }
     .intro {
@@ -277,7 +277,7 @@ header {
                 margin-bottom: 1.1%;
             }
             //iphones non-plus portrait
-            @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) { 
+            @media only screen and (max-width: 375px) and (min-resolution: 2dppx) { 
                 margin-bottom: 6.1%;
             }
 

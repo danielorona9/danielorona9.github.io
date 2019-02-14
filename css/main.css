@@ -124,7 +124,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 375px) and (min-resolution: 2dppx) {
   .about {
     height: 51rem;
   }
@@ -374,7 +374,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 375px) and (min-resolution: 2dppx) {
   .portfolio .portfolio-background .project-placeholder {
     margin-bottom: 6.1%;
   }
