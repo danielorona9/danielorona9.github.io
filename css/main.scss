@@ -242,7 +242,11 @@ header {
     margin-bottom: 20%;
     padding-top: 5rem;
     width: 100%;
-    
+     //iphones non-plus portrait
+     @media only screen and (max-width: 375px) and (min-resolution: 2dppx) { 
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
     .portfolio-background {
         margin: 0 auto;
         display: flex;
@@ -313,6 +317,11 @@ header {
            margin-top: -14%;
            padding-bottom: 4%;
       }
+     //iphones non-plus portrait
+     @media only screen and (max-width: 375px) and (min-resolution: 2dppx) { 
+        margin-top: 0;
+
+    }
     .contact-title {
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: lighter;

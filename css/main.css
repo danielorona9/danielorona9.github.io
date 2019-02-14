@@ -317,6 +317,13 @@ header {
   width: 100%;
 }
 
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 375px) and (min-resolution: 2dppx) {
+  .portfolio {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
 .portfolio .portfolio-background {
   margin: 0 auto;
   display: -webkit-box;
@@ -421,6 +428,12 @@ header {
   .contact {
     margin-top: -14%;
     padding-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 375px) and (min-resolution: 2dppx) {
+  .contact {
+    margin-top: 0;
   }
 }
 
